@@ -25,5 +25,6 @@ function generatePassword(){
 
         
     }
-            console.log(pass);
+    containerPassword.classList.remove("hide");
+     password.innerHTML = pass;
 }
